@@ -1,0 +1,45 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,li,dl,dt,dd,input{
+    margin: 0;
+    padding: 0;
+}
+/* 内减模式 */
+*{
+    box-sizing: border-box;
+}
+/* 清除默认列表样式 */
+ul,ol,li{
+    list-style: none;
+}
+/* 清除默认倾斜效果 */
+em,i{
+    font-style: normal;
+}
+/* 清除a标签默认下划线，设置默认文字颜色 */
+a{
+    text-decoration: none;
+}
+/* 图片基线中对齐 */
+img{
+    vertical-align: middle;
+}
+/* 清除input默认样式 */
+input{
+    border: none;
+    outline: none;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/* 双伪元素清除 */
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}

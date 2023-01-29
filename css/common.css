@@ -1,0 +1,32 @@
+/* 版心 */
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    height: 100px;
+    /* background-color: #68fce0; */
+}
+.header .wrapper{
+    height: 100px;
+}
+.header .wrapper ul{
+    float: left;
+}
+.header .wrapper li{
+    float: left;
+    margin-left: 200px;
+    line-height: 100px;
+}
+.header .wrapper span img{
+    float: left;
+    width: 100px; 
+    padding-top: 14px;
+}
+.header .wrapper a{
+    font-size: 20px;
+    color: #1357e9;
+}
+.header .wrapper li img{
+    width: 100px;
+}
